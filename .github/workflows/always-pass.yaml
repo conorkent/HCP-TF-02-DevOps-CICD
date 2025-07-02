@@ -1,0 +1,9 @@
+# This is a basic workflow to help you get started with Actions
+
+name: GitHub Action Demo
+on:[pull_request]
+jobs:
+  always-pass:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0
